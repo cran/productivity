@@ -1,0 +1,13 @@
+f760dfd654c3cccd1ae4addeb599ae48 *DESCRIPTION
+199284ee0437f5b14cd09f3916dd52c0 *NAMESPACE
+98f43c08fa4923a548da6cb0a398ab86 *R/auxiliary1.R
+fdc40474138df5e7f55d87750bb5ab49 *R/auxiliary2.R
+9c8a68898fe557bc7046e93dfa48ef14 *R/fareprim.R
+31475846bc2107acb6dfd726b7a5e199 *R/lowe.R
+45a2bba7c7cd98c48a16b4630e4ed8e0 *R/malm.R
+146f24813177017af758e6196433fedd *R/zzz.R
+d1d3e1be4f6da9c5a5f418269474eb66 *data/usagri.rda
+067e2c529b345c57ad8f765cc126476c *man/fareprim.Rd
+52bb718bada4397e76d8e2acc26a40f9 *man/lowe.Rd
+e6f7ff3a0f8f93fa1ff814d5042f930f *man/malm.Rd
+e6a02c8936b7287397f4568c383af385 *man/usagri.Rd
