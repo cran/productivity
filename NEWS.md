@@ -1,3 +1,35 @@
+# productivity 1.1.0
+Changes in 'productivity' version 1.1.0 (2018-03-28)
+
+## NEW FEATURES
+
+* A new productivity index is now proposed:
+	- Hicks-Moorsteen index (`hicksmoorsteen()`), with its components (malmquist-hs and malmquist-it)
+
+## BUG FIXES
+
+* A bug is corrected addressing `MP`, `TFPE`, `ROSE`, `RISE`, `ROSE.RISE`, `RME` values computed with `lowe()` function.
+
+## DEPRECATED & DEFUNCT
+None
+
+## OTHER USER-VISIBLE CHANGES
+
+* {Rglpk} package is not used any more. All DEA linear programs are now implemented using the {lpSolveAPI} package.
+
+* The argument `scaled` in `fareprim()`, `fisher()`, `laspeyres()`, `lowe()`, `malm()`and `paasche()` is now set to `TRUE` by default to avoid extreme cases where models cannot be optimized. Note that it is still possible to specify `scaled = FALSE` in functions' call.
+
+* An argument `shadow` is introduced in `fareprim()`, `fisher()`, `laspeyres()`, `lowe()`, and `paasche()` functions if one wants to retrieve shadow prices.
+
+* Dependency to `plm` package is removed.
+
+* Updated functions' documentation.
+
+* Updated `DESCRIPTION` file.
+
+* Updated startup message.
+
+***
 # productivity 1.0.0
 Changes in 'productivity' version 1.0.0 (2017-07-20)
 
@@ -23,7 +55,7 @@ Changes in 'productivity' version 1.0.0 (2017-07-20)
 
 ## BUG FIXES
 
-* `fareprim()` and `lowe()` functions return correct `OSME.ISME` values (i.e. Geometric mean of Output-oriented and Input-oriented scale-mix efficiency scores when `orientation = "in-out"`.
+* `fareprim()` and `lowe()` functions return correct `OSME.ISME` values (i.e. Geometric mean of Output-oriented and Input-oriented scale-mix efficiency scores when `orientation = "in-out"`).
 
 * `lowe()` function, when `tech.change = FALSE` and `orientation = "in-out"`, does not return an error message any more.
 
